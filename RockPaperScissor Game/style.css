@@ -1,0 +1,112 @@
+img {
+    width: 30%;
+}
+
+#firstSection {
+    border: 1px solid white;
+    text-align: center;
+}
+
+#score {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #BDBDBD;
+}
+
+#resultBox {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 60px);
+    font-size: 14px;
+    border: 2px solid black;
+    width: 45%;
+}
+
+#profile1 {
+    position: absolute;
+    border: 2px solid black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    left: 15%;
+    top: 110px;
+}
+
+#chat1 {
+    position: absolute;
+    border: 2px solid black;
+    width: 90px;
+    height: 45px;
+    left: -85px;
+    top: -55px;
+}
+
+#profile2 {
+    position: absolute;
+    border: 2px solid black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    left: 80%;
+    top: 110px;
+}
+
+#chat2 {
+    position: absolute;
+    border: 2px solid black;
+    width: 90px;
+    height: 45px;
+    left: 45px;
+    top: -55px;
+}
+
+#secondSection {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30pt;
+}
+
+.imgBd {
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: 90%;
+}
+
+#Button {
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #EEEEEE;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#selectBtn, #againBtn {
+    position: absolute;
+    width: 120px;
+    padding: 5px 15px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#againBtn {
+    display: none;
+}
+
+#resetScoreBtn {
+    position: absolute;
+    width: 100px;
+    padding: 5px 5px;
+    font-size: 12px;
+    left: 60%;
+    transform: translate(-30%, 1px);
+}
+
+.imgBd:active {
+    border: 2px solid blue;
+}

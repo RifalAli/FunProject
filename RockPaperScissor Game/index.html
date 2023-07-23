@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="firstSection">
+        <h2 id="score">0 - 0</h2>
+        <div id="resultBox">
+            <h2 id="textResult">Select your weapon!</h2>
+        </div>
+        <div id="profile1">
+            <div id="chat1">
+                <p id="textChat1"></p>
+            </div>
+        </div>
+        <div id="profile2">
+            <div id="chat2">
+                <p id="textChat2"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="secondSection">
+        <div id="rockBox" class="imgBd" onclick="selectRock()">
+            <img src="image\rock.png">
+            <h3>Rock</h3>
+        </div>
+        <div id="scissorBox" class="imgBd" onclick="selectScissor()">
+            <img src="image\scissor.png">
+            <h3>Scissor</h3>
+        </div>
+        <div id="paperBox" class="imgBd" onclick="selectPaper()">
+            <img src="image\paper.png">
+            <h3>Paper</h3>
+        </div>
+    </div>
+    <div id="Button">
+        <input id="selectBtn" class="btn" value="Select" type="button" onclick="weaponSelected()">
+        <input id="againBtn" class="btn" value="Play Again" type="button" onclick="playAgain()">
+        <input id="resetScoreBtn" class="btn" value="Reset Score" type="button" onclick="resetScore()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
