@@ -6,4 +6,6 @@ If you want to view the the result instead of the source code, just visit http:/
 i. e. : 
 http://htmlpreview.github.io/?https://github.com/RifalAli/FunProject/blob/main/RockPaperScissor%20Game/index.html
 
+Also, it is recommended to view the result on desktop as this projects may be unresponsive
+
 Enjoy!
